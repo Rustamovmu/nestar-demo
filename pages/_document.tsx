@@ -12,7 +12,7 @@ export default function Document() {
         {/* SEO */}
         <meta
           name="keyword"
-          content={"nestar, nestar.uz, nestar demo, nestar demo app, nestar demo website, nestar demo project"}
+          content={"nestar, nestar.uz, devex mern, mern nestjs fullstack"}
         />
         <meta
           name="description"

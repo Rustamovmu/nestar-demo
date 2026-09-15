@@ -5,24 +5,28 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
-    "@mui/icons-material": "5.4.2",
-    "@mui/material": "5.10.1",
-    "next": "16.3.4",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
+    "@apollo/client": "^3.5.10",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.4.2",
+    "@mui/material": "^5.10.1",
+    "graphql": "^15.5.0",
+    "next": "14.2.1",
+    "react": "^18",
+    "react-dom": "^18",
     "sass": "^1.49.9",
-    "sass-loader": "^12.6.0"
+    "sass-loader": "^12.6.0",
+    "swiper": "^8.3.1"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "babel-plugin-react-compiler": "1.0.0",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/swiper": "^6.0.0",
     "typescript": "^5"
   }
 }
